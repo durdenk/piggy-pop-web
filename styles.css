@@ -35,7 +35,7 @@ main { padding: 12px 0 56px; }
 
 /* Hero */
 .hero { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); align-items: center; gap: 32px; padding: clamp(28px, 5vw, 60px); border-radius: 28px; background: linear-gradient(160deg, var(--surface-2), var(--surface)); box-shadow: 0 6px 0 #0b0a14, inset 0 1px 0 rgb(255 255 255 / .06); }
-.hero-logo { display: block; width: min(100%, 300px); height: auto; margin: 0 0 22px; filter: drop-shadow(0 10px 18px rgb(0 0 0 / .45)); }
+.hero-logo { display: block; width: min(100%, 420px); height: auto; margin: 0 0 22px; filter: drop-shadow(0 10px 18px rgb(0 0 0 / .45)); }
 .eyebrow { margin: 0 0 16px; color: var(--pink); font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; }
 h1, h2, h3 { line-height: 1.1; letter-spacing: -.025em; }
 h1 { margin: 0; font-size: clamp(38px, 5.6vw, 64px); font-weight: 800; }
@@ -107,7 +107,7 @@ footer div { justify-content: flex-end; }
 @media (max-width: 680px) {
   .site-header { align-items: flex-start; flex-direction: column; gap: 12px; }
   .hero { grid-template-columns: 1fr; padding: 28px 20px; text-align: center; }
-  .hero-logo { width: 220px; margin-inline: auto; }
+  .hero-logo { width: 300px; margin-inline: auto; }
   .lede { margin-inline: auto; }
   .hero-art .model { width: 220px; }
   .slot { width: 64px; height: 64px; }
